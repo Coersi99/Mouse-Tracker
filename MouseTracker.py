@@ -13,7 +13,7 @@ class MouseMove:
 
     clicks = 0 #the amount of clicks will be stored here
     start = 0 #start counting the time
-    DELTATIME = 5 #determines the seconds between to insertions
+    DELTATIME = 5 #determines the seconds between two insertions
     UPPERBOUND = 10 #upper limit for clicks within delta time
 
     def postClicks(clicks):
